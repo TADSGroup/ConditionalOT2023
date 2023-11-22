@@ -2,6 +2,8 @@
 
 Pytorch implementation of [Conditional Optimal Transport on Function Spaces](https://arxiv.org/abs/2311.05672) by Hosseini, Hsu and Taghvaei.
 
+Most of this is code is for the Wasserstein Monge GAN, but we've also included the code for pCN that we used for validation, and for the low dimensional empirical pushforward experiments.
+
 ## Conda Environments
 Since pytorch and fenicsx wouldn't place nicely with each other, we have separate conda environments for solving pde's and training the WaMGANS, they can both be found in the conda_envs directory. 
 
