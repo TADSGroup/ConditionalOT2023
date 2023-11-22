@@ -1,6 +1,6 @@
 # Wasserstein Monge GAN
 
-Pytorch implementation of ADD ARXIV LINK ONCE UP[Wasserstein Monge GANS](https://arxiv.org/abs/1704.00028) by Hosseini, Hsu and Taghvaei.
+Pytorch implementation of [Conditional Optimal Transport on Function Spaces](https://arxiv.org/abs/2311.05672) by Hosseini, Hsu and Taghvaei.
 
 ## Conda Environments
 Since pytorch and fenicsx wouldn't place nicely with each other, we have separate conda environments for solving pde's and training the WaMGANS, they can both be found in the conda_envs directory. 
