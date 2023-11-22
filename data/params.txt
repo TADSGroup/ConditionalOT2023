@@ -1,0 +1,5 @@
+
+n=100000
+num_kernel_points=40
+kernel = matern_three_half(0.5)
+eval_points = 100

@@ -1,0 +1,1 @@
+python darcy_pCN.py configs.json &

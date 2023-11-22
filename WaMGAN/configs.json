@@ -1,0 +1,27 @@
+{
+    "dataset": "darcy_flow",
+    "momentum": 0,
+    "gp_weight": 5,
+    "batch_size": 512,
+    "latent_dim": 25,
+    "num_epochs": 100000,
+    "penalty_type": "monge",
+    "y_noise_level": 0.025,
+    "num_datapoints": 10000,
+    "monotone_penalty": 0.05,
+    "critic_iterations": 5,
+    "full_critic_train": 20,
+    "grid_num_observed": 8,
+    "prior_kernel_type": "matern_three_half",
+    "critic_learning_rate": 0.0005,
+    "gradient_penalty_type": "two_sided",
+    "gen_hidden_layer_sizes": [
+        2048
+    ],
+    "prior_kernel_bandwidth": 0.5,
+    "generator_learning_rate": 0.001,
+    "discriminator_hidden_layer_sizes": [
+        2048
+    ],
+    "tags":[0]
+}

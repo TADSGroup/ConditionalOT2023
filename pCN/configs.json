@@ -1,0 +1,11 @@
+{
+    "dataset": "darcy_flow_wider_bandwidth",
+    "prior_kernel_type": "matern_three_half",
+    "prior_kernel_bandwidth": 0.5,
+    "example_index": -3,
+    "grid_num_observed": 8,
+    "num_batches": 100,
+    "thin_rate":100,
+    "name":"example_3",
+    "noise_level":0.025
+}
