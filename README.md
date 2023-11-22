@@ -19,8 +19,6 @@ after modifying configuration settings to your liking
 
 See the file darcy_train.py for an example of the training process. We used wandb to log everything throughout training, and have provided the conda environment defined in conda_envs/mgan_env.yml for training and using the WaMGAN.
 
-This will train the models and generate a gif of the training progress.
-
 These generative models can take a long time to converge. We ran for 100,000 epochs, but much fewer will still produce satisfactory results for this Darcy flow example.
 
 ## This code was forked from
